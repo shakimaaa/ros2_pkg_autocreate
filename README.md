@@ -43,6 +43,7 @@ chmod +x create_ros2_pkg.sh
 ~/create_ros2_pkg.sh <pkg_name> <example_node>
 ```
 -- <pkg_name> 功能包名字
+
 -- <example_node> 节点文件名字，只需修改'example'即可，会自动将类名命名为'ExampleNode'
 
 ### 步骤 6: 创建附加文件
@@ -54,6 +55,9 @@ python3 scripts/create_additional_files.py $(pwd) <pkg_name> <header_file_name> 
 ```
 
 -- <pkg_name> 功能包名字
+
 -- <header_file_name> 头文件名字
+
 -- <source_file_name> 源文件名字
+
 -- <class_name> 类的名字
